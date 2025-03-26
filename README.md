@@ -45,6 +45,24 @@ pip install -r requirements.txt
 ## Run 
 Run the Flask app:
 ```bash
-python hello_api.py
+python3 hello_api.py
 ```
+
+# 🐍 Flask Hello World API (Docker)
+
+Questa è una semplice API Flask che risponde con un saluto personalizzato.
+
+---
+
+## 🚀 Avvio con Docker
+
+Costruisci l'immagine:
+
+```bash
+docker build -t flask-hello .
+```
+```bash
+docker run -d -p 5000:5000 flask-hello
+```
+
 
